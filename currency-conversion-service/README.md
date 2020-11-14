@@ -1,7 +1,7 @@
 **docker commands to run to load and run the application**
 
 # First Create the network. We will use this network to launch the container.
-docker network create local-net \n
+docker network create local-net 
 
 docker run -p 8100:8100 itd --net local-net --name currency-conversion --link currency-exchange --env CURRENCY_EXCHANGE_URI=currency-exchange ${image_id}
  - -p 8100:8100: this is to expose the container port to the host port
