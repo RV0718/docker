@@ -1,8 +1,8 @@
 # **docker commands to load and run the application in a container**
 
 ## Commands:
-- mvn clean build
 - go to the root directory of the project
+- mvn clean build
 - docker build -t {repo name}:tag .
 -- -t: is used to tag your build.
 -- Ex: -t abc/currency-exchange/1.0.0-SNAPSHOT
