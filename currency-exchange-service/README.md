@@ -1,4 +1,4 @@
-#docker commands to run to load and run the application
+##docker commands to run to load and run the application
 
 docker network create local-net
 
