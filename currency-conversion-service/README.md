@@ -14,4 +14,5 @@ docker run -p 8100:8100 itd --net local-net --name currency-conversion --link cu
 
 # Example URL:
 URL: http://{ip/host of the docker(or localhost) host}:8100/currency-conversion/from/USD/to/INR/23
+
 Ex: http://localhost:8100/currency-conversion/from/USD/to/INR/23
