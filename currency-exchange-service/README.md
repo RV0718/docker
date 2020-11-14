@@ -10,4 +10,5 @@ docker run -p 8000:8000 itd --net local-net --name currency-exchange ${image_id}
  - itd: to lauch the container in the interactive detached mode
 
 # Example URL:
-URL: http://localhost:8000/currency-exchange/from/USD/to/INR
+URL: URL: http://{ip/host of the docker(or localhost) host}:8000/currency-exchange/from/USD/to/INR
+http://localhost:8000/currency-exchange/from/USD/to/INR
