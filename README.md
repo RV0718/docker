@@ -1,5 +1,5 @@
 
-# **Steps To run the application in a container**
+# **Steps to run the application in a container**
 
 ## Commands:
 - First build and run the container of the currency-exchange service. As this service is independent on any other service and can be tested separately.
