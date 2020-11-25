@@ -5,7 +5,7 @@
 - mvn clean build
 - docker build -t {repo name}:tag .
   - -t: is used to tag your build.
-  - Ex: -t abc/currency-exchange/1.0.0-SNAPSHOT
+  - Ex: -t abc/currency-exchange:1.0.0-SNAPSHOT
   - .: is there if you're running the docker build command from the root directory of the project. Else you can use the -f to provide the docker file path.
 - docker network create local-net 
   - First we will create the docker network. We will use this network to launch the container.
